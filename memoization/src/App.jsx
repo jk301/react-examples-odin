@@ -43,7 +43,7 @@ function Counter() {
       <Profiler id="buttoncomponent" onRender={onRender}>
         <h1>{count}</h1>
         {/* Try swapping handleClick with memoizedHandleClick and back! */}
-        <ButtonComponent onClick={handleClick}>Click me!</ButtonComponent>
+        <ButtonComponent onClick={memoizedHandleClick}>Click me!</ButtonComponent>
       </Profiler>
       <div>
         <h2>Base Duration:</h2>
