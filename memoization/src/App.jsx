@@ -7,7 +7,7 @@ const ButtonComponent = memo(({ children, onClick }) => {
   let j = 0;
 
   // increase iteration count for more lag
-  const ITERATION_COUNT = 10_000;
+  const ITERATION_COUNT = 15_000;
   while (i < ITERATION_COUNT) {
     while (j < ITERATION_COUNT) {
       j += 1;
